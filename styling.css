@@ -1,0 +1,96 @@
+.lgo{
+    border-radius: 4px;
+}
+body{
+    background-image: url("images/bg.jpg");
+    color: antiquewhite;
+}
+.left {
+    display: inline-block;
+   
+    position: absolute;
+    left: 38px;
+    top: 10px;
+}
+
+.mid{
+    display: inline-block;
+    
+    position: fixed;
+    margin: 9px;
+    left: 272px;
+    
+}
+.right{
+    display: inline-block;
+    position: fixed;
+    margin: 4px;
+   
+    right: 20px;
+}
+.list li {
+    display: inline-block;
+    border: 2px solid red;
+    background-color: black;
+    padding: 4px;
+    margin: 25px;
+}
+.list li a{
+    text-decoration: none;
+    color: aqua;
+}
+.list li a:hover, .list li a:active{
+    text-decoration:underline;
+    color: rgb(147, 129, 164);
+    cursor:pointer;
+}
+form {
+    background: antiquewhite;
+    border-radius: 25px;
+    
+    position: absolute;
+    margin: 253px 55px;
+    padding: 49px 44px;
+}
+.frm {
+    color: black;
+    padding: 5px;
+    text-align: left;
+}
+br{
+    color: bisque;
+
+}
+.left img {
+    width: 58%;
+    padding: 6px;
+    filter: invert(90%);
+    border-radius: 40px;
+}
+
+.left div {
+    line-height: 15px;
+    font-size: 30px;
+    text-align: left;
+}
+.btn{
+    margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+
+}
+.btn:hover {
+        background-color: rgb(31, 30, 30);
+    }
+table,th,td{
+    border: 4px groove wheat;
+    width: 100px;
+    padding: 18px;
+    margin: 172px 50px;
+    box-sizing: border-box;
+}
