@@ -94,3 +94,13 @@ table,th,td{
     margin: 172px 50px;
     box-sizing: border-box;
 }
+.buyplans{
+    border-radius: 7px;
+    padding: 11px;
+    margin: 1px 355px;
+    size: 128px;
+}
+.buyplans:hover{
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
