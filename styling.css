@@ -87,19 +87,32 @@ br{
 .btn:hover {
         background-color: rgb(31, 30, 30);
     }
-table,th,td{
-    border: 4px groove wheat;
+table {
+    border: 4px groove royalblue;
     width: 100px;
-    padding: 18px;
+    padding: 8px;
     margin: 172px 50px;
+    position: absolute;
     box-sizing: border-box;
+    top: -29px;
+    background-color: blanchedalmond;
+    color: black;
 }
-.buyplans{
+th, td {
+    border: 5px solid blue;
+    padding: 22px;
+}
+.buyplans {
+    position: absolute;
+    top: 1069px;
+    right: 284px;
     border-radius: 7px;
     padding: 11px;
     margin: 1px 355px;
-    size: 128px;
+    size: 133px;
 }
+
+
 .buyplans:hover{
     background-color: blanchedalmond;
     cursor: pointer;
