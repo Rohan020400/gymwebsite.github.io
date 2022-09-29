@@ -1,7 +1,9 @@
 .lgo{
     border-radius: 4px;
 }
-body{
+html,body{
+    height: 200%;
+    width: 100%;
     background-image: url("images/bg.jpg");
     color: antiquewhite;
 }
@@ -15,8 +17,9 @@ body{
 
 .mid{
     display: inline-block;
-    
-    position: fixed;
+    background-color: black;
+    top:0px;
+    position:sticky;
     margin: 9px;
     left: 272px;
     
